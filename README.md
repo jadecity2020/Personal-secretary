@@ -10,6 +10,7 @@
  Charts daily spending in a graph (tbd) // weekly and monthly will be post MVP
  
  # WireFrame
+ https://www.figma.com/file/nUL3gp7kiTRpfnH4Avd136/Capstone-project?node-id=4%3A15
  
  # Models/Schema
  Spending:{amount: integer, category: string, date: date}
