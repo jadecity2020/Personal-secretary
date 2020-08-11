@@ -20,3 +20,29 @@
  React, Ruby, Rails, POSTGRE //python data science is in consideration
  
  # Time commitment
+| Content                                       | Time estimated (hrs) | Time Spent (hrs) |
+|-----------------------------------------------|----------------------|------------------|
+| Ruby/Rails Model                              | 3                    |                  |
+| Rails CRUD                                    | 2                    |                  |
+| React                                         | 14                   |                  |
+| Shared                                        | 3                    |                  |
+| Layout                                        | 2                    |                  |
+| NavBar/Footer                                 | 1                    |                  |
+| Routes                                        | 11                   |                  |
+| Homepage                                      | 3                    |                  |
+| History Log                                   | 2                    |                  |
+| Spending/Income Forms                         | 3                    |                  |
+| Pie Chart                                     | 3                    |                  |
+| CSS                                           | 10                   |                  |
+|                                               |                      |                  |
+| MVP Total:                                    | 29                   |                  |
+|                                               |                      |                  |
+| Post MVP                                      |                      |                  |
+| Sorting (History log)                         | 5                    |                  |
+| Other Charts                                  | 10                   |                  |
+| Categorized history view   (All/Spend/Income) | 5                    |                  |
+|                                               |                      |                  |
+|                                               |                      |                  |
+| Post MVP Total:                               | 20                   |                  |
+|                                               |                      |                  |
+| Grand Total                                   | 49                   |                  |
