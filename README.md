@@ -22,20 +22,20 @@
  # Time commitment
 | Content                                       | Time estimated (hrs) | Time Spent (hrs) |
 |-----------------------------------------------|----------------------|------------------|
-| Ruby/Rails Model                              | 3                    |                  |
-| Rails CRUD                                    | 2                    |                  |
-| React                                         | 14                   |                  |
-| Shared                                        | 3                    |                  |
-| Layout                                        | 2                    |                  |
-| NavBar/Footer                                 | 1                    |                  |
-| Routes                                        | 11                   |                  |
-| Homepage                                      | 3                    |                  |
-| History Log                                   | 2                    |                  |
-| Spending/Income Forms                         | 3                    |                  |
-| Pie Chart                                     | 3                    |                  |
+| Ruby/Rails Model                              | 3                    |        5         |
+| Rails CRUD                                    | 2                    |        5         |
+| React                                         | 14                   |       28         |
+| Shared                                        | 3                    |        5         |
+| Layout                                        | 2                    |        3         |
+| NavBar/Footer                                 | 1                    |        2         |
+| Routes                                        | 11                   |       23         |
+| Homepage                                      | 3                    |        5         |
+| History Log                                   | 2                    |        5         |
+| Spending/Income Forms                         | 3                    |        3         |
+| Pie Chart                                     | 3                    |       10         |
 | CSS                                           | 10                   |                  |
 |                                               |                      |                  |
-| MVP Total:                                    | 29                   |                  |
+| MVP Total:                                    | 29                   |       48         |
 |                                               |                      |                  |
 | Post MVP                                      |                      |                  |
 | Sorting (History log)                         | 5                    |                  |
