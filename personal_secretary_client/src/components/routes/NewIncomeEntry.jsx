@@ -1,11 +1,9 @@
 import React from "react";
-import Dropdown from 'react-bootstrap/Dropdown'
-import DropdownButton from 'react-bootstrap/DropdownButton'
-import {Link} from 'react-router-dom'
+
 
 
 const NewIncomeEntry = ({ incomeInput, handleSpendSubmit, handleSpendChange}) => {
-    console.log(incomeInput)
+    // console.log(incomeInput)
   return (
       <div>
     <form className="NewIdeaForm" onSubmit={handleSpendSubmit}>
@@ -22,9 +20,7 @@ const NewIncomeEntry = ({ incomeInput, handleSpendSubmit, handleSpendChange}) =>
       </div>
       <div className="Idea-create-buttons">
         <button className="submit" type="submit">
-            <Link to='/'>
                 Submit
-          </Link>
         </button>
       </div>
     </form>

@@ -6,10 +6,8 @@ import Redirect from 'react-router-dom'
 
 const NewIncomeCreate = (props) => {
   const [incomeInput, setIncomeInput] = useState({amount:''});
-
-  
   const handleSpendChange = (event) => {
-    console.log("event", event.target.name, event.target.value);
+    // console.log("event", event.target.name, event.target.value);
     setIncomeInput({
       ...incomeInput,
       [event.target.name]: event.target.value
@@ -17,16 +15,16 @@ const NewIncomeCreate = (props) => {
   };
   const handleSpendSubmit = (event) => {
     event.preventDefault();
-    console.log("handleSubmit");
+    // console.log("handleSubmit");
     axios({
       url: `http://localhost:3000/incomes/`,
       method: "POST",
       data: incomeInput,
     })
       .then((res) => {
-        console.log(res)
+        // console.log(res)
           setIncomeInput({ createdItem: res.data.idea })
-          props.history.push('/entryreceived')
+          props.history.push('/')
         })
       .catch(console.error);
   };

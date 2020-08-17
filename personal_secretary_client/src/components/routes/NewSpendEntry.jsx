@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 
 const NewSpendEntry = ({ spendInput, handleSpendSubmit, handleSpendChange, handleSelect}) => {
-    console.log(spendInput)
+    // console.log(spendInput)
   return (
       <div>
         <DropdownButton id="dropdown-item-button" title="Select Category" value={spendInput.category} name='category' onSelect={handleSelect}>

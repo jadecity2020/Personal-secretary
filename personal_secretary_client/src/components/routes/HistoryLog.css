@@ -1,0 +1,16 @@
+.history-log-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;;
+    margin-bottom:5px
+}
+
+.history-date {
+    margin-right:20px;
+}
+.history-category {
+    margin-right:10px;
+}
+
+.history-amount {
+    margin-left: 20px;
+}
