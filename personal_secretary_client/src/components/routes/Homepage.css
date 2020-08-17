@@ -1,0 +1,15 @@
+.spent {
+    color:red
+}
+
+.received {
+    color:green
+}
+
+.daily-dashoboard{
+    margin-bottom:10px;
+}
+
+.monthly-dashboard {
+    margin-bottom:10px;
+}

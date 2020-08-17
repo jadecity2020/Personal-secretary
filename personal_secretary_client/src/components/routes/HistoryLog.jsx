@@ -28,7 +28,7 @@ const HistoryLog=({spends, incomes})=>{
         <div className='history-log-container'>
             <p className='history-date'>{e.created_at.slice(0,10)}</p>
             <p className='history-category'>{displayCategory}</p>
-            <p className='history-amount'>{parseFloat(e.amount).toFixed(2)}</p>
+            <p className='history-amount'>${parseFloat(e.amount).toFixed(2)}</p>
         </div>
         )
     })

@@ -40,7 +40,6 @@ const History =(props)=>{
             spends={spends}
             incomes={incomes}
             />
-            <h2>hello</h2>
         </>
     )
 }
