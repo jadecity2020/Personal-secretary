@@ -6,7 +6,7 @@ const HistoryLog=({spends, incomes})=>{
     console.log('props',spends)
     console.log(incomes)
     let totalLogs=spends
-    totalLogs.push(...incomes)
+    if(!totalLogs.includes(incomes[0]))totalLogs.push(...incomes)
     console.log('total2',totalLogs)
     let sortedLog=totalLogs.sort(sortByDate)
     console.log(sortedLog)
@@ -23,7 +23,7 @@ const HistoryLog=({spends, incomes})=>{
         console.log(e)
         let displayCategory=e.category
         if(!e.category)displayCategory='Received'
-        console.log(displayCategory)
+        console.log(e)
         return(
         <div className='history-log-container'>
             <p className='history-date'>{e.created_at.slice(0,10)}</p>
@@ -35,13 +35,15 @@ const HistoryLog=({spends, incomes})=>{
     console.log(displayLogs)
     return(
         <>
-        <div><Link to='/history/Charts'>View Monthly Spending Charts</Link></div>
+        <div><Link to='/history/Charts'><p className='title'>View Monthly Spending Charts</p></Link></div>
+        <div className='history-log-total-container'> 
         <div className='history-log-container'>
-            <p className='history-date'>Date</p>
-            <p className='history-category'>Category</p>
-            <p className='history-amount'>Amount</p>
+            <p className='history-date title'>Date</p>
+            <p className='history-category title'>Category</p>
+            <p className='history-amount title'>Amount</p>
         </div>
             {displayLogs}
+        </div>
         </>
     )
 }

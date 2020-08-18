@@ -1,13 +1,13 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 
 
 const NewIncomeEntry = ({ incomeInput, handleSpendSubmit, handleSpendChange}) => {
     // console.log(incomeInput)
   return (
       <div>
-    <form className="NewIdeaForm" onSubmit={handleSpendSubmit}>
-      <div className="Idea-Create-Div-box">
+    <form className="IncomeForm" onSubmit={handleSpendSubmit}>
+      <div className="Income-Div-box">
         <label>Amount Received: </label>
         <input
           className="Description-input"
@@ -18,10 +18,13 @@ const NewIncomeEntry = ({ incomeInput, handleSpendSubmit, handleSpendChange}) =>
         />
         <br />
       </div>
-      <div className="Idea-create-buttons">
+      <div className="Income-buttons">
         <button className="submit" type="submit">
                 Submit
         </button>
+        <Link to='/'>
+          <button className="cancel">Cancel</button>
+        </Link>
       </div>
     </form>
  

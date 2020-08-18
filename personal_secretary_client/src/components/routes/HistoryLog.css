@@ -1,16 +1,28 @@
-.history-log-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;;
-    margin-bottom:5px
-}
-
-.history-date {
-    margin-right:20px;
-}
-.history-category {
+.history-log-total-container {
+    margin-left:10px;
     margin-right:10px;
 }
 
+.history-log-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;;
+    margin-bottom:5px;
+    border-bottom: 1px solid black;
+
+    justify-items: center;
+}
+
+.history-date {
+    margin-right:10px;
+}
+.history-category {
+    margin-right:5px;
+}
+
 .history-amount {
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+.title {
+    font-weight:bold;
 }

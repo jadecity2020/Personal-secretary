@@ -17,8 +17,8 @@ const NewSpendEntry = ({ spendInput, handleSpendSubmit, handleSpendChange, handl
         <Dropdown.Item eventKey="Other">Other</Dropdown.Item>
     </DropdownButton>
 
-    <form className="NewIdeaForm" onSubmit={handleSpendSubmit}>
-      <div className="Idea-Create-Div-box">
+    <form className="spendForm" onSubmit={handleSpendSubmit}>
+      <div className="Spend-Div-box">
         <label>Category: </label>
         <input
           className="Title-input"
@@ -38,10 +38,13 @@ const NewSpendEntry = ({ spendInput, handleSpendSubmit, handleSpendChange, handl
         />
         <br />
       </div>
-      <div className="Idea-create-buttons">
+      <div className="spend-buttons">
         <button className="submit" type="submit">
                 Submit
         </button>
+        <Link to='/'>
+          <button className="cancel">Cancel</button>
+        </Link>
       </div>
     </form>
  
