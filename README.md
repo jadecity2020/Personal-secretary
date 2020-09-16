@@ -2,6 +2,7 @@
 
  This app will help the user track the daily flow of money usage.
  The data will then be charted for easier readability for the user. 
+ Live Link: http://personal-secretary.surge.sh/
  
  # Basic Functionality
  The user will be able to to create a new expense for current day, update the spending (in case of typo), delete the spending, and see all the spending logs.
